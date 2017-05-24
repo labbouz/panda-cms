@@ -11,8 +11,8 @@
 	* User login, registration
 	* soon will be more...
 * Packages included:
-	* 
-	* 
+	* spatie/laravel-permission
+	* laravelcollective/html
 	* 
 	* 
 
