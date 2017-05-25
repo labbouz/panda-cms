@@ -35,8 +35,11 @@ class User extends Authenticatable
     /*
      * Which would encrypt all our password fields.
      */
+    /*
     public function setPasswordAttribute($password)
     {
         $this->attributes['password'] = bcrypt($password);
     }
+    */
+
 }

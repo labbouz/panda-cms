@@ -1,0 +1,1 @@
+<footer class="footer text-center"> 2017 &copy; Panda CMS brought to you by digipanda.net </footer>
