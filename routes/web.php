@@ -13,8 +13,13 @@
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('home');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::group([ 'prefix' => 'administrator', 'namespace' => 'Admin'], function () {
+    // Controllers Within The "App\Http\Controllers\Admin" Namespace
+
+	Route::get('/', 'HomeController@dashboard')->name('admin.dashboard');
+
+});
