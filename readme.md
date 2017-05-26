@@ -13,7 +13,7 @@
 * Packages included:
 	* spatie/laravel-permission
 	* laravelcollective/html
-	* 
+	* spatie/laravel-menu
 	* 
 
 ## Devloppers
