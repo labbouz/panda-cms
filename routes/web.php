@@ -20,6 +20,7 @@ Auth::routes();
 Route::group([ 'prefix' => 'administrator', 'namespace' => 'Admin'], function () {
     // Controllers Within The "App\Http\Controllers\Admin" Namespace
 
-	Route::get('/', 'HomeController@dashboard')->name('admin.dashboard');
+    Route::get('/', 'HomeController@dashboard')->name('admin.dashboard');
+    Route::get('/{page}', 'HomeController@getPage')->name('admin.page');
 
 });
